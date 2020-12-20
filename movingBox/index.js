@@ -32,6 +32,7 @@ function init() {
     box.rotation.x = 10;
     scene.add(box);
 
+    //地面作成
     const grid = new THREE.GridHelper(10000, 200, 0x444444, 0x444444);
     grid.rotation.x = Math.PI / -2;
     scene.add(grid);
